@@ -7,6 +7,7 @@ app.get('/', function (req, res) {
  res.send('hello world from 5555');
 });
 //listen to port 5555 by default
+// this is to test ngix web proxy server
 app.listen(process.env.PORT || 5555);
  
 module.exports = app;
